@@ -44,6 +44,7 @@ namespace study4
             //Console.WriteLine("숙련 : {0}", stat6);
 
 
+
         }
     }
 }
