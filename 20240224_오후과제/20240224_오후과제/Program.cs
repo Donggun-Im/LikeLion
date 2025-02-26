@@ -11,22 +11,18 @@ namespace _20240224_오후과제
         static void Main(string[] args)
         {
             Console.WriteLine("문제 1. 세 정수의 최대값 구하기");
-            int a, b, c;
-            int max;
+            int a =0, b=0, c=0;
             Console.WriteLine("정수 3개를 입력하세요: ");
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
             c = Convert.ToInt32(Console.ReadLine());
+            int max =a;
 
-            if (a > b)
-            {
-                max = a;
-            }
-            else if (b > c)
+            if (max < b)
             {
                 max = b;
             }
-            else
+            if (max < c)
             {
                 max = c;
             }
@@ -65,19 +61,26 @@ namespace _20240224_오후과제
 
             if (op == '+')
             {
-                Console.WriteLine("{0}+{1}={2}", a, b, a + b);
+                Console.WriteLine("{0}+{1}={2}", num1, num2, num1 + num2);
             }
             else if (op == '-')
             {
-                Console.WriteLine("{0}-{1}={2}", a, b, a - b);
+                Console.WriteLine("{0}-{1}={2}", num1, num2, num1 - num2);
             }
             else if (op == '*')
             {
-                Console.WriteLine("{0}*{1}={2}", a, b, a * b);
+                Console.WriteLine("{0}*{1}={2}", num1, num2, num1 * num2);
             }
             else if (op == '/')
             {
-                Console.WriteLine("{0}/{1}={2}", a, b, a / b);
+                if (num2 != 0)
+                {
+                    Console.WriteLine("{0}/{1}={2}", num1, num2, num1 / num2);
+                }
+                else
+                {
+                    Console.WriteLine("0으로 나눌 수 없습니다.");
+                }
             }
             else
             {

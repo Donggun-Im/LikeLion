@@ -1,0 +1,7 @@
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\obj\Debug\BlackSmith.csproj.AssemblyReference.cache
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\obj\Debug\BlackSmith.csproj.CoreCompileInputs.cache
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\bin\Debug\BlackSmith.exe.config
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\bin\Debug\BlackSmith.exe
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\bin\Debug\BlackSmith.pdb
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\obj\Debug\BlackSmith.exe
+C:\Users\abcd3\Documents\GitHub\LikeLion\BlackSmith\BlackSmith\obj\Debug\BlackSmith.pdb
